@@ -10,7 +10,8 @@ class StudentsController < ApplicationController
   end
   
   def activate
-    
+    set_student.activate = !set_student.activate
+    redirect :show
   end 
 
   private
