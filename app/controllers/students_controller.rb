@@ -5,8 +5,8 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
-  def students_path 
-    byebug
+  def students/:id 
+    
   end
 
   private
