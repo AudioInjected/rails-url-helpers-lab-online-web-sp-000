@@ -5,7 +5,8 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
-  def show
+  def students_path 
+    byebug
   end
 
   private
