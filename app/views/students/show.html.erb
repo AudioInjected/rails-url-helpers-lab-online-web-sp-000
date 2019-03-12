@@ -5,4 +5,4 @@
   <p>This student is currently inactive.</p>
 <% end %>
 
-<%= link_to 'something', student_path(@student) %>
+<%= link_to @student.to_s, student_path(@student) %>
